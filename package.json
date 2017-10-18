@@ -1,0 +1,35 @@
+{
+    "name": "ssl2",
+    "version": "0.0.1",
+    "description": "SSL Tools",
+    "main": "index.js",
+    "bin": {
+        "ssl2": "bin/ssl2.js"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^3.5.3"
+    },
+    "dependencies": {
+        "colors": "^1.1.2",
+        "if2": "^0.1.2",
+        "minimist": "^0.0.8",
+        "noda": "^1.0.0",
+        "overload2": "^0.2.0"
+    },
+    "directories": {},
+    "homepage": "https://github.com/YounGoat/nodejs.ssl2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/nodejs.ssl2.git"
+    }
+}

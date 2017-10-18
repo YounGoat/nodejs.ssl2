@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=example.com, OU=JS, CN=demo CA
+        Validity
+            Not Before: Sep 25 08:03:22 2017 GMT
+            Not After : Sep 25 08:03:22 2018 GMT
+        Subject: C=CN, ST=Shanghai, O=example.com, OU=NodeJS, CN=demo personal cert
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:d6:3a:84:fe:4c:93:c8:d4:cd:b1:48:37:89:3d:
+                    1b:b9:37:a6:fe:7b:b0:f6:3d:b1:0f:c9:ee:fd:c2:
+                    2c:74:95:65:50:ae:3c:6b:25:7e:f9:a9:c9:e4:72:
+                    77:7e:37:49:30:04:f0:db:5f:0e:5c:22:5b:0c:a3:
+                    15:b5:03:1e:cf:3f:8d:6b:7f:bd:db:d5:44:24:ca:
+                    c3:ae:4f:0b:d1:54:8b:fc:84:0f:21:fa:c0:8a:1d:
+                    c1:01:43:01:58:89:93:d5:d3:30:27:38:21:67:6b:
+                    10:a0:3a:eb:15:0b:e9:09:ae:c0:e2:3b:db:2a:06:
+                    72:52:b8:f2:e3:ae:aa:ae:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:example.com
+    Signature Algorithm: sha256WithRSAEncryption
+        0a:99:e4:51:d5:8b:85:9c:e7:c1:d0:b7:c8:ad:fc:75:17:64:
+        14:c9:18:55:68:a6:14:45:cf:46:f7:43:13:80:05:4e:1b:1e:
+        cf:2f:e4:e8:c3:4d:9b:27:9f:cc:d5:55:f3:d1:54:6d:80:3e:
+        a5:86:b2:be:98:2b:6b:9c:a5:b9:5b:80:d8:85:b0:aa:ea:e0:
+        7e:cd:1f:c2:7b:22:22:d3:eb:4e:41:c0:77:e2:53:b2:dc:8a:
+        f4:12:2b:ea:a1:38:57:3b:59:5d:1a:7d:cb:1e:a2:32:39:9c:
+        cd:d4:6e:9a:ed:e9:bd:6a:6b:92:e6:a3:ce:66:ae:6b:c1:cb:
+        4f:47:23:b4:cc:18:bf:d3:8d:70:9d:b3:32:d9:12:f0:c7:ef:
+        80:cc:22:02:cf:98:be:7a:5a:e6:4c:5f:2b:31:67:a6:0f:77:
+        10:16:92:2c:a4:a7:f1:c5:f7:85:d0:11:da:a6:60:e4:52:9e:
+        00:eb:6c:2a:0c:8d:ad:65:c6:cc:a1:dc:39:d3:ee:6a:02:e4:
+        5e:66:60:1a:ca:c5:86:d7:48:f7:37:68:ae:5c:eb:b0:73:60:
+        70:04:a0:5b:b2:a5:6c:34:e3:90:12:a9:df:f9:14:e6:d7:72:
+        d2:66:42:44:15:bc:60:92:42:cf:bb:14:c0:c7:77:ec:fc:f1:
+        87:c8:f7:34
+-----BEGIN CERTIFICATE-----
+MIIC3TCCAcWgAwIBAgIBATANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJDTjER
+MA8GA1UECBMIU2hhbmdoYWkxETAPBgNVBAcTCFNoYW5naGFpMRQwEgYDVQQKEwtl
+eGFtcGxlLmNvbTELMAkGA1UECxMCSlMxEDAOBgNVBAMTB2RlbW8gQ0EwHhcNMTcw
+OTI1MDgwMzIyWhcNMTgwOTI1MDgwMzIyWjBkMQswCQYDVQQGEwJDTjERMA8GA1UE
+CBMIU2hhbmdoYWkxFDASBgNVBAoTC2V4YW1wbGUuY29tMQ8wDQYDVQQLEwZOb2Rl
+SlMxGzAZBgNVBAMTEmRlbW8gcGVyc29uYWwgY2VydDCBnzANBgkqhkiG9w0BAQEF
+AAOBjQAwgYkCgYEA1jqE/kyTyNTNsUg3iT0buTem/nuw9j2xD8nu/cIsdJVlUK48
+ayV++anJ5HJ3fjdJMATw218OXCJbDKMVtQMezz+Na3+929VEJMrDrk8L0VSL/IQP
+IfrAih3BAUMBWImT1dMwJzghZ2sQoDrrFQvpCa7A4jvbKgZyUrjy466qrr0CAwEA
+AaMaMBgwFgYDVR0RBA8wDYILZXhhbXBsZS5jb20wDQYJKoZIhvcNAQELBQADggEB
+AAqZ5FHVi4Wc58HQt8it/HUXZBTJGFVophRFz0b3QxOABU4bHs8v5OjDTZsnn8zV
+VfPRVG2APqWGsr6YK2ucpblbgNiFsKrq4H7NH8J7IiLT605BwHfiU7LcivQSK+qh
+OFc7WV0afcseojI5nM3Ubprt6b1qa5Lmo85mrmvBy09HI7TMGL/TjXCdszLZEvDH
+74DMIgLPmL56WuZMXysxZ6YPdxAWkiykp/HF94XQEdqmYORSngDrbCoMja1lxsyh
+3DnT7moC5F5mYBrKxYbXSPc3aK5c67BzYHAEoFuypWw045ASqd/5FObXctJmQkQV
+vGCSQs+7FMDHd+z88YfI9zQ=
+-----END CERTIFICATE-----

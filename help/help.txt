@@ -1,0 +1,30 @@
+SSL2
+
+*NAME*
+  _ssl2_ - OpenSSL agent tool
+
+*SYNOPSIS*
+  _ssl2_ `help`
+  Show this help info.
+
+  _ssl2_ `cert` `delete` #<#`cert`#>#
+  Delete the cert from system cert store. 
+  It will distrust the cert before deleting it.
+
+  _ssl2_ `cert` `distrust` #<#`cert`#>#
+  Distrust the cert.
+
+  _ssl2_ `cert` `fingerprint` #<#`cert`#>#
+  Print the SHA-1 fingerprint of the cert.
+
+  _ssl2_ `cert` `import` #<#`cert`#>#
+  Import the cert into system cert store.
+
+  _ssl2_ `cert` `trust` #<#`cert`#>#
+  Trust the cert. 
+  The cert will be imported into the system cert store implictly.
+
+  _ssl2_ `cert` `verify` #<#`cert`#>#
+  Verify the cert.
+
+
