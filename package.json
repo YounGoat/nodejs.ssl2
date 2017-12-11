@@ -1,6 +1,6 @@
 {
     "name": "ssl2",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "SSL Tools",
     "main": "index.js",
     "bin": {
@@ -23,8 +23,8 @@
         "colors": "^1.1.2",
         "if2": "^0.1.2",
         "minimist": "^0.0.8",
-        "noda": "^0.0.1",
-        "overload2": "^0.2.0"
+        "noda": "^0.1.2",
+        "overload2": "^0.2.1"
     },
     "directories": {},
     "homepage": "https://github.com/YounGoat/nodejs.ssl2",

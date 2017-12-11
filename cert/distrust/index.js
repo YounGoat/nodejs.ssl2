@@ -22,7 +22,7 @@ module.exports = overload2()
     .overload(
         'string',
         /**
-         * @param {string} certPath path of certificate to be imported
+         * @param {string} certPath path of certificate to be distrusted
          */
         function(certPath) {
             return main(certPath);
@@ -33,7 +33,8 @@ module.exports = overload2()
         /**
          * @param {Object} args
          * @param {Array}  args._
-         * @param {string} args._[0] path of certificate to be imported
+         * @param {string} args._[0] alias of args.path
+         * @param {string} args.path path of certificate to be distrusted
          */
         function(args) {
             // ---------------------------
